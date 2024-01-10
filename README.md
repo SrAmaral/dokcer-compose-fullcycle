@@ -4,7 +4,6 @@ Este repositorio foi criado para conter os arquivos do desafio, do modulo de doc
 
 ### Descrição do desafio
 > Você terá que crirar um docker composer que conect mysql, node e ngix:
-
 >**Requisito:** Quando um usuário acesse o nginx, o mesmo fará uma chamada em nossa aplicação node.js. Essa aplicação por sua vez adicionará um registro em nosso banco de dados mysql, cadastrando um nome na tabela people.
 
 >O retorno da aplicação node.js para o nginx deverá ser:
