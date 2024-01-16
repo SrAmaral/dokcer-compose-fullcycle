@@ -10,7 +10,7 @@ services:
     hostname: node
     tty: true
     volumes:
-      - ./node:/usr/src/app
+      - /usr/src/temp
     ports:
       - "3000:3000"
     depends_on:
